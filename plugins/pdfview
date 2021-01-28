@@ -18,7 +18,7 @@ if [ -n "$1" ]; then
         # file=`basename "$1"`
         # txt=/tmp/"$file".txt
         # mutool convert -o "$txt" "$1"
-        # eval $PAGER $txt
+        # eval "$PAGER" "$txt"
         # rm "$txt"
     fi
 fi
